@@ -1,0 +1,66 @@
+[ {
+    "type" : "diegopet",
+    "name" : "Rocky",
+    "age" : 7,
+    "class" : "dogs",
+    "location" : "Colombia"
+  }, {
+    "type" : "diegopet",
+    "name" : "Lucas",
+    "age" : 20,
+    "class" : "elephant",
+    "location" : "Africa"
+  }, {
+    "type" : "diegopet",
+    "name" : "Martha",
+    "age" : 15,
+    "class" : "giraphe",
+    "country" : "Argentina"
+  }, {
+    "type" : "diegopet",
+    "name" : "yogi",
+    "age" : 20,
+    "class" : "bear",
+    "country" : "Canada"
+  }, {
+    "type" : "diegopet",
+    "name" : "Brutus",
+    "age" : 20,
+    "class" : "Dog",
+    "country" : "US"
+  }, {
+    "type" : "diegopet",
+    "name" : "Betsy",
+    "age" : 2,
+    "class" : "Dog",
+    "country" : "US"
+  }, {
+    "type" : "diegopet",
+    "name" : "mickey",
+    "age" : 2,
+    "class" : "rat",
+    "country" : "United States"
+  }, {
+    "type" : "diegopet",
+    "name" : "fabio",
+    "age" : 2,
+    "class" : "lizard",
+    "country" : "United States",
+    "state" : {
+      "name" : "Illinois",
+      "description" : "Midwest State"
+    }
+  }, {
+    "type" : "diegopet",
+    "name" : "roberta",
+    "age" : 2,
+    "class" : "lizard",
+    "color" : "green",
+    "country" : "United States",
+    "numberOfLegs" : 4,
+    "state" : {
+      "name" : "Illinois",
+      "description" : "Midwest State"
+    }
+  }
+ ]
