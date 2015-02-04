@@ -5,3 +5,12 @@ Day 2
 ```bash
 curl -X POST "https://api.usergrid.com/adb-cog/snaik/token" -d '{"grant_type":"client_credentials", "client_id":"b3U6CgtfCqvCEeSEkeO38C-3ug", "client_secret":"{client_secret}"}'
 ```
+
+####Windows Users
+
+#####Vagrant Box with Linux Ubuntu and Jenkins
+[Vagrant Box to Run Linux](https://github.com/dzuluagaapigee/apigee-ci-jenkins-git-maven-jmeter.git)
+
+#####Cygwin
+
+https://www.cygwin.com/
