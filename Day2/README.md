@@ -24,3 +24,8 @@ Attributes and logical operators
 ```bash
 https://api.usergrid.com/adb-cog/sandbox/diegopets?ql=select name,class where age gt 10
 ```
+
+#### Order by
+```bash
+https://api.usergrid.com/adb-cog/sandbox/diegopets?ql=order by age desc
+```
