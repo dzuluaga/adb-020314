@@ -7,6 +7,10 @@ curl -X POST "https://api.usergrid.com/adb-cog/snaik/token" -d '{"grant_type":"c
 ```
 
 ####Windows Users
+Incompatibilities with cURL can be workaround by leveraging these REST clients:
+
+##### PostMan
+https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en
 
 #####Vagrant Box with Linux Ubuntu and Jenkins
 [Vagrant Box to Run Linux](https://github.com/dzuluagaapigee/apigee-ci-jenkins-git-maven-jmeter.git)
