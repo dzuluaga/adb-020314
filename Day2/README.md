@@ -18,3 +18,9 @@ https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojoj
 #####Cygwin
 
 https://www.cygwin.com/
+
+#### BaaS QL
+Attributes and logical operators
+```bash
+https://api.usergrid.com/adb-cog/sandbox/diegopets?ql=select name,class where age gt 10
+```
