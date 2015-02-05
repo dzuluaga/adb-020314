@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="soap-xsl-example">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1423150004974</CreatedAt>
+    <CreatedBy>dmehi@apigee.com</CreatedBy>
+    <Description>ApigeeCorporation git: ab337eda mdunker-MBP-5.local</Description>
+    <DisplayName>soap-xsl-example</DisplayName>
+    <LastModifiedAt>1423150004974</LastModifiedAt>
+    <LastModifiedBy>dmehi@apigee.com</LastModifiedBy>
+    <Policies>
+        <Policy>Fault.NotFound</Policy>
+        <Policy>addCORSAllowOriginHeader</Policy>
+        <Policy>addCORSPreflightHeaders</Policy>
+        <Policy>buildGetCountriesRequest</Policy>
+        <Policy>buildGetHolidayDateRequest</Policy>
+        <Policy>buildGetHolidaysForDateRangeRequest</Policy>
+        <Policy>buildGetHolidaysForMonthRequest</Policy>
+        <Policy>buildGetHolidaysForYearRequest</Policy>
+        <Policy>buildGetHolidaysListRequest</Policy>
+        <Policy>checkAllowedCORSOrigins</Policy>
+        <Policy>cleanupJsonPayload</Policy>
+        <Policy>createCORSFailedPreflightResponse</Policy>
+        <Policy>createCORSInvalidOriginPreflightResponse</Policy>
+        <Policy>createCORSPreflightResponse</Policy>
+        <Policy>extractInputFields</Policy>
+        <Policy>fetchAllowedOriginsFromMap</Policy>
+        <Policy>lookupAllowedOriginsFromCache</Policy>
+        <Policy>populateAllowedOriginsInCache</Policy>
+        <Policy>removePathSuffix</Policy>
+        <Policy>setCommonVariables</Policy>
+        <Policy>setResponseHeaders</Policy>
+        <Policy>xmlToJson</Policy>
+        <Policy>xslGetCountriesResponse</Policy>
+        <Policy>xslGetHolidayDateResponse</Policy>
+        <Policy>xslGetHolidaysForDateRangeResponse</Policy>
+        <Policy>xslGetHolidaysForMonthResponse</Policy>
+        <Policy>xslGetHolidaysForYearResponse</Policy>
+        <Policy>xslGetHolidaysListResponse</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>xsl://getCountriesResponse.xsl</Resource>
+        <Resource>xsl://getHolidayDateResponse.xsl</Resource>
+        <Resource>xsl://getHolidaysForDateRangeResponse.xsl</Resource>
+        <Resource>xsl://getHolidaysForMonthResponse.xsl</Resource>
+        <Resource>xsl://getHolidaysForYearResponse.xsl</Resource>
+        <Resource>xsl://getHolidaysListResponse.xsl</Resource>
+        <Resource>jsc://URI.js</Resource>
+        <Resource>jsc://addCORSPreflightHeaders.js</Resource>
+        <Resource>jsc://checkAllowedCORSOrigins.js</Resource>
+        <Resource>jsc://cleanupJsonPayload.js</Resource>
+        <Resource>jsc://removePathSuffix.js</Resource>
+    </Resources>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
