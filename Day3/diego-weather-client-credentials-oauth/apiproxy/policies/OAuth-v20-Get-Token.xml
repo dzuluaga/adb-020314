@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OAuthV2 async="false" continueOnError="false" enabled="true" name="OAuth-v20-Get-Token">
+    <DisplayName>OAuth v2.0-Get-Token</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <Attributes/>
+  	<ExpiresIn>3600000</ExpiresIn>
+    <ExternalAuthorization>false</ExternalAuthorization>
+    <Operation>GenerateAccessToken</Operation>
+    <SupportedGrantTypes>
+      <GrantType>client_credentials</GrantType>
+  	</SupportedGrantTypes>
+  	<GrantType>request.queryparam.grant_type</GrantType>
+    <GenerateResponse enabled="true"/>
+    <Tokens/>
+</OAuthV2>
